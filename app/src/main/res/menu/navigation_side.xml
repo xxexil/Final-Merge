@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item android:id="@+id/nav_profile"
+        android:icon="@drawable/profilee"
+        android:title="Profile" />
+    <item android:id="@+id/nav_msg"
+        android:icon="@drawable/baseline_3p_24"
+        android:title="Messages" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="More Options" >
+        <menu
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <item
+                android:id="@+id/nav_contacts"
+                android:icon="@drawable/contacts"
+                android:title="Contacts" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_delete_outline_24"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+
+</menu>
